@@ -26,9 +26,9 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 <details>
     <summary><b>Clique aqui para ver o checklist detalhado de desenvolvimento</b></summary>
 
-- [ X ] Criar a estrutura do projeto com pastas e arquivos HTML, CSS e JS;
-- [ X ] Linkar o CSS e JS no arquivo HTML;
-- [ ] Adicionar o título principal e seção de explicação no HTML;
+- [X] Criar a estrutura do projeto com pastas e arquivos HTML, CSS e JS;
+- [X] Linkar o CSS e JS no arquivo HTML;
+- [X] Adicionar o título principal e seção de explicação no HTML;
 - [ ] Criar um formulário com campos para quantidade, mínimo, máximo e opção "Não repitir número";
 - [ ] Adicionar o botão "Sortear" e área para exibir mensagem e resultados;
 - [ ] Aplicar reset/normalize básico no CSS;
