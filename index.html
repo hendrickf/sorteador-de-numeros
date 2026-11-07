@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -48,38 +53,61 @@
                 </div>
             </div>
         </div>
-        <div class="content-form">
-            <div class="title-form">
-                <h2>quero sortear:</h2>
-                <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É
-                    rápido e fácil!</p>
-            </div>
-            <div class="form">
-                <div class="fields">
-                    <div class="number-field">
-                        <label>números</label>
-                        <input type="number" value="2">
+        <!-- <div id="tela-form" class="tela ativa">
+            <div class="content-form">
+                <div class="title-form">
+                    <h2>quero sortear:</h2>
+                    <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É
+                        rápido e fácil!</p>
+                </div>
+                <div class="form">
+                    <div class="fields">
+                        <div class="number-field">
+                            <label>números</label>
+                            <input type="number" value="2">
+                        </div>
+                        <div class="number-field">
+                            <label>de</label>
+                            <input type="number" value="1">
+                        </div>
+                        <div class="number-field">
+                            <label>de</label>
+                            <input type="number" value="100">
+                        </div>
                     </div>
-                    <div class="number-field">
-                        <label>de</label>
-                        <input type="number" value="1">
-                    </div>
-                    <div class="number-field">
-                        <label>de</label>
-                        <input type="number" value="100">
+                    <div class="option-toggle">
+                        <div class="toggle">
+                            <img src="./assets/icons/elipse-buttom.svg" alt="">
+                        </div>
+                        <p class="text-toggle">Não repetir número</p>
                     </div>
                 </div>
-                <div class="option-toggle">
-                    <div class="toggle">
-                        <img src="./assets/icons/elipse-buttom.svg" alt="">
+                <button class="go">
+                    <span class="text-go">sortear</span>
+                    <img src="./assets/icons/arrow-right.svg" alt="">
+                </button>
+            </div>
+        </div> -->
+
+        <div id="tela-resultado" class="tela">
+            <div class="form-resultado">
+                <div class="titulo">
+                    <h2 class="titulo-resultado">resultado do sorteio</h2>
+                    <p class="primeiro-resultado"> 1˚ resultado</p>
+                </div>
+                <div class="content-number">
+                    <div class="animation-number">
+                        <div class="retangulo-desativado">
+                            <span>23</span>
+                        </div>
                     </div>
-                    <p class="text-toggle">Não repetir número</p>
+                    <div class="animation-number">
+                        <div class="retangulo-desativado">
+                            <span>12</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button class="go">
-                <span class="text-go">sortear</span>
-                <img src="./assets/icons/arrow-right.svg" alt="">
-            </button>
         </div>
     </main>
 </body>
